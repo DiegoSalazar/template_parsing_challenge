@@ -1,7 +1,7 @@
 require 'rspec'
 require './patient_bank_template_parser.rb'
 
-describe PatientBank::TemplateParser do
+describe TemplateParser do
   subject { described_class.new environment }
 
   context 'Plain values' do
