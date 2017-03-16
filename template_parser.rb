@@ -13,7 +13,6 @@ class TemplateParser
 
   # @param environment
   # a hash of values to interpolate into templates
-  #
   def initialize(environment)
     @environment = environment
   end
@@ -21,7 +20,6 @@ class TemplateParser
   # @param template
   # a string template
   # @return an interpolated string
-  #
   def parse(template)
     @template = template.dup
     interpolate_environment while contains_tags?
