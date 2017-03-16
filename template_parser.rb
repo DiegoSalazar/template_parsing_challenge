@@ -50,9 +50,9 @@ class TemplateParser
     symbol = tag.sub(/[#{IF_TAG}#{UNLESS_TAG}]/, NIL_VAR).downcase.to_sym
 
     @template.gsub! match, if tag =~ /#{IF_TAG}/
-                              @environment[symbol] ? content : NIL_VAR
-                            elsif tag =~ /#{UNLESS_TAG}/
-                              @environment[symbol] ? NIL_VAR : content
-                            end.strip
+                             @environment[symbol] ? content : NIL_VAR
+                           elsif tag =~ /#{UNLESS_TAG}/
+                             @environment[symbol] ? NIL_VAR : content
+                           end.strip
   end
 end
