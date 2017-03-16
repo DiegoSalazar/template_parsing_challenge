@@ -1,5 +1,5 @@
 require 'rspec'
-require './patient_bank_template_parser.rb'
+require './template_parser.rb'
 
 describe TemplateParser do
   subject { described_class.new environment }
