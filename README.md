@@ -1,4 +1,4 @@
-# Challenge: Write Template a Parser
+# Challenge: Write a Template Parser
 
 This is my solution to a template parsing challenge. I implemented the core of the parsing/interpolation logic using regular expressions with capture groups and back references. The main `parse` method then iteratively substitutes environment values and captured matches until there are no captures.
 
