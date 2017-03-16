@@ -1,5 +1,4 @@
 require 'rspec'
-require 'pry'
 require './patient_bank_template_parser.rb'
 
 describe PatientBank::TemplateParser do
