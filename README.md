@@ -15,16 +15,16 @@ end
 
 ## Running Specs
 
- - 1. Clone the repo:
+  1. Clone the repo:
 
 ```bash
 git clone git@github.com:DiegoSalazar/template_parsing_challenge.git
 cd template_parsing_challenge
 ```
 
- - 2. Run `bundle` unless you already have `rspec` installed.
- - 3. Run `rspec ./patient_bank_template_parser_spec.rb`
- 
+  2. Run `bundle` unless you already have `rspec` installed.
+  3. Run `rspec ./patient_bank_template_parser_spec.rb`
+
 ## Examples
 ```ruby
 # Input:
