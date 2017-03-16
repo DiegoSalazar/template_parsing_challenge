@@ -25,7 +25,7 @@ cd template_parsing_challenge
 ```
 
   2. Run `bundle` unless you already have `rspec` installed.
-  3. Run `rspec ./patient_bank_template_parser_spec.rb`
+  3. Run `rspec ./template_parser_spec.rb`
 
 ## Examples
 ```ruby
