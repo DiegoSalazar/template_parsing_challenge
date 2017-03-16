@@ -12,10 +12,17 @@ module PatientBank
       {(.+)} # capture just a tag
     /x
 
+    # @param environment
+    # a hash of values to interpolate into templates
+    #
     def initialize(environment)
       @environment = environment
     end
 
+    # @param template
+    # a string template
+    # @return an interpolated string
+    #
     def parse(template)
       @template = template.dup
       interpolate_environment while contains_tags?
